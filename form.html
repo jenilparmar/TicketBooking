@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+<link rel="shortcut icon" href="steam-train-chugs-through-mountain-forest-scene-generative-ai_188544-8072.avif" type="image/x-icon">
+
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+<center>
+    
+    <div class="details" id="v">
+        <center>
+            <h1>Confirm your Journey</h1>
+        
+        </center>    
+            <input type="hidden" id="train" name="train" value="">
+                <input type="hidden" id="arrivalTime" name="arrivalTime" value="">
+                <input type="hidden" id="departureTime" name="departureTime" value="">
+                <!-- Booking form fields -->
+            <br><br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="From">From:</label>
+                <input type="text" id="From" name="From" required><br><br>
+                <label for="To">To:</label>&nbsp; &nbsp; &nbsp;
+                <input type="text" id="To" name="To" required><br><br>
+                <label for="date">Date:</label> &nbsp; &nbsp; &nbsp;
+                <input type="date" id="date" name="date" placeholder="Date"><br>
+         
+                <select id="Classes" style="z-index: 20;" class="select">
+                    <option value="All Classes">All Classes</option>
+                    <option value="Ac First clas">Ac First class</option>
+                    <option value="Exec. Chair Car(EC)">Exec. Chair Car(EC)</option>
+                    <option value="Ac 2 Tier (2A)">Ac 2 Tier (2A)</option>
+                    <option value="Ac 3 Tier(3A)">Ac 3 Tier(3A)</option>
+                    <option value="First class(FC)">First class(FC)</option>
+                    <option value="Sleeper">Sleeper</option>
+                    <option value="Ac Chair Car">Ac Chair Car</option>
+                    <option value="Second Sitting (2S)">Second Sitting (2S)</option>
+                  </select>
+ 
+                <select id="Mode" class="select">
+                    <option value="General">General</option>
+                    <option value="LADIES">LADIES</option>
+                    <option value="LOWER BERTH/SR.CITIZEN">LOWER BERTH/SR.CITIZEN</option>
+                    <option value="PERSON WITH DISABILITY">PERSON WITH DISABILITY</option>
+                    <option value="DUTY PASS">DUTY PASS</option>
+                    <option value="TATKAL">TATKAL</option>
+                    <option value="PREMIUM TATKAL">PREMIUM TATKAL</option>
+                  </select>
+                
+                  <center>
+                    <button class="board" id="p">Payment</button>
+                    <div id="ic" ></div>
+                  </center>
+                  <div id="two"></div>
+                  <div id="three"></div>
+        </div>
+        <div class="ic2" id="o"></div>
+        <h1 id="x">Journey Information</h1>
+    <div id="ticketInformation">
+        
+    </div>
+    <div id="gpay"></div>
+    <div id="gpayb"></div>
+    <div class="ic6" id="r"></div>
+    <br>
+    <div class="ic4" id="q"></div>
+<button id="ticket" style="display: none;" class="board">View Ticket</button>       
+ <script src="script2.js"></script>
+</center></body>
+</html>

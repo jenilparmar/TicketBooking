@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(38, 35, 35);
+    /* width: fit-content; */
+}
+.container{
+    width: 70vw;
+    background-color: transparent;
+    /* border: 2px solid rgb(205, 205, 71); */
+    border-radius: 15px;
+    height: 40vh;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    height: fit-content;
+}
+.trains{
+    height: 65vh;
+    width: 75vw;
+    background-color: transparent;
+    border: 2px solid rgb(205, 205, 71);
+    border-radius: 15px;
+}
+.name{
+    background-color: rgb(205, 205, 71);
+    color: black;
+    font-weight: 500;
+    border: 2px solid black;
+    width: 35vw;
+    margin-top: -0.7em;
+    height: 8vh;
+    font-size: 1.8em;
+    border-radius: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.image{
+    background-color: aqua;
+    border: 2px solid rgb(205, 205, 71);
+    border-radius: 15px;
+    filter: drop-shadow(0px 0px 10px  rgb(205, 205, 71));
+    position: relative;
+    left: -29%;
+    top: 10%;
+    height: 40vh;
+    width: 20vw;
+}
+.information{
+    text-align: left;
+    color: rgb(205, 205, 71) ;
+    position: relative;
+    left: 13%;
+    top: -51%;
+    width: fit-content;
+    font-size: 1.2em;
+}
+.board{
+    height: 7vh;
+    width: 10vw;
+    border: 2px solid rgb(205, 205, 71);
+    border-radius: 15px;
+    background-color: transparent;
+    color: rgb(205, 205, 71);
+    font-size: 1.2em;
+transition: all ease 0.5s;
+position: relative;
+text-align: left;
+padding-left:0.5em ;
+top: -47%;
+left: 0%;
+    
+}
+.board:hover{
+    filter: drop-shadow(0px 0px 32px  rgb(205, 205, 71));
+    background-color: rgb(205, 205, 71);
+    border-color: black;
+color: black;
+}
+
+#icon{
+    height: 4vh;
+    width: 2vw;
+    position: relative;
+    top: -55%;
+    left: 4%;
+    filter: drop-shadow(0px 0px 32px  rgb(0, 0, 0));
+    
+    background-image: url(boarding-pass.png);
+    background-size: contain;
+}
+.image{
+    background-size: cover;
+    background-position: center;
+        
+}
+.loader-container{
+    position: absolute;
+    top: 22%;
+    left: 38%;
+    filter: brightness(98%) hue-rotate(145deg) saturate(319%) invert(75%);
+    -webkit-filter: brightness(98%) hue-rotate(145deg) saturate(319%) invert(75%);
+    -moz-filter: brightness(98%) hue-rotate(145deg) saturate(319%) invert(75%);
+    mix-blend-mode:saturation;
+    color: rgb(205, 205, 71);
+}
+h2{
+    color: rgb(205, 205, 71);
+}

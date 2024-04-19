@@ -1,0 +1,5 @@
+function boardTrain(trainIndex) {
+            var information = document.querySelectorAll('.information')[trainIndex - 1].innerText;
+            var encodedInformation = encodeURIComponent(information);
+            window.location.href = 'other_page.html?information=' + encodedInformation;
+        }

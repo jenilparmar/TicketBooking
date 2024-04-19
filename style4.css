@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(36, 35, 33);
+}
+.details{
+    border: 2px solid rgb(198, 198, 50);
+    background-color: transparent;
+    border-radius: 5px;
+    width: 48vw;
+    height: 87vh;
+    /* margin-left: 4em; */
+    margin-top: 2em;
+    color: rgb(198, 198, 50);
+    font-size: 1.2em;
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 1em; */
+    /* align-items: last baseline; */
+    /* align-content: flex-start; */
+}
+input{
+    background-color: rgb(198, 198, 50);
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    height: 4vh;    
+}
+.select{
+    background-color: transparent;
+    color: rgb(198, 198, 50);
+    height: 10vh;
+    margin-left: 1em;
+margin-top: 1em;
+border-radius: 5px;
+    text-align: center ;
+}
+.select:focus{
+    background-color: transparent;
+    color: black;
+}
+.select::after{
+    color: rgb(198, 198, 50);
+}
+h1{
+    background-color: rgb(198, 198, 50);
+    color: black;
+    border: 2px solid black;
+    margin-top: -0.6em;
+    width: 30vw;
+    font-size: 1em;
+    border-radius: 15px;
+}
+#x{
+    background-color: rgb(198, 198, 50);
+    color: black;
+    border: 2px solid black;
+    margin-top: 2.4em;
+    width: 30vw;
+    font-size: 1em;
+    border-radius: 15px;
+    position: absolute;
+    top: 89%;
+    left: 35%;
+    z-index: 10;
+}
+.board{
+    height: 7vh;
+    width: 12vw;
+    border: 2px solid rgb(205, 205, 71);
+    border-radius: 15px;
+    background-color: transparent;
+    color: rgb(205, 205, 71);
+    font-size: 1em;
+transition: all ease 0.5s;
+position: relative;
+text-align: left;
+padding-left:0.5em ;
+top: -47%;
+left: 0%;
+margin-top: 2em;
+    
+}
+.board:hover{
+    filter: drop-shadow(0px 0px 32px  rgb(205, 205, 71));
+    background-color: rgb(205, 205, 71);
+    border-color: black;
+color: black;
+}
+
+#ic{
+    height: 4vh;
+    width: 2vw;
+ background-image: url(payment-gateway.png);
+ background-size: contain;
+    position: relative;
+    top: -65%;
+    right: -9%;
+    margin-top: -1.3em;
+}
+#ticketInformation{
+    position: relative;
+    left: 0%;
+    color: rgb(198, 198, 50);
+    border: 2px solid rgb(198, 198, 50);
+width: 48vw;
+align-self: center;
+margin-top: 1em;
+border-radius: 10px;
+/* text-indent: 0.4em;   */
+text-align: left;
+padding: 1em;
+}
+
+.ic2{
+    height: 4vh;
+    width: 2vw;
+    background-image: url(seats.png);
+    background-size: contain;
+    position: absolute;
+    top: 102%;
+    right: 40%;
+    margin-top: -1.3em;
+    /* background-color: antiquewhite; */
+    z-index: 20;
+}
+#gpay{
+    height: 53vh;
+    width: 25vw;
+    background-image: url(WhatsApp\ Image\ 2024-04-19\ at\ 19.32.55_4271b449.jpg);
+    background-position: center;
+    background-size: contain;
+    padding: 1em;
+    position: fixed;
+    top: 12%;
+    align-self: center;
+    margin-left: 1.9em;
+    margin-top: 1.9em;
+    z-index: 50;
+    left: 34%;
+    display: none;
+}
+#gpayb{
+    height: 65vh;
+    border-radius: 15px;
+    filter: drop-shadow(0px 0px 32px rgb(205, 205, 71));
+    display: none;
+    width: 30vw;
+    /* background-image: url(WhatsApp\ Image\ 2024-04-19\ at\ 19.32.55_4271b449.jpg); */
+    background-position: center;
+    background-size: contain;
+    align-items: center;
+    background-color: rgb(34, 34, 35);
+    border: 2px solid rgb(205, 205, 71);
+    padding: 1em;
+    position: fixed;
+    top: 12%;
+    left: 34%;
+}
+
+
+#ticket{
+    position: absolute;
+    top: 83%;
+    left: 44%;
+}
+.ic4{
+    height: 4vh;
+    width: 2vw;
+    background-image: url(ticket.png);
+    background-size: contain;
+    position: absolute;
+    top: 96%;
+    right: 45%;
+    display: none;
+    margin-top: -1.3em;
+    /* background-color: antiquewhite; */
+    z-index: 20;
+}
+.ic6{
+    height: 4vh;
+    width: 2vw;
+    background-image: url(cross.png);
+    background-size: contain;
+    position: absolute;
+    top: 11%;
+    right: 26%;
+    display: none;
+    margin-top: -1.3em;
+    background-color: antiquewhite;
+    z-index: 20;
+}
+#two{
+    height: 2vh;
+    width: 1.5vw;
+    background-image: url(arrow.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 64%;
+    right: 53%;
+background-color: rgb(198, 198, 50);
+    display: inline-block;
+    /* margin-top: -1.3em; */
+    /* background-color: transparent; */
+    z-index: 20;
+}
+#three{
+    height: 2vh;
+    width: 1.5vw;
+    background-image: url(arrow.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 63%;
+    right: 31.8%;
+background-color: rgb(198, 198, 50);
+    display: inline-block;
+    /* margin-top: -1.3em; */
+    /* background-color: transparent; */
+    z-index: 20;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+}
+#ticketDetails{
+    align-self: center;
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#ticketDetails {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    /* text-align: center; */
+    padding: 2.2em;
+}
+
+#printButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+@media print {
+    #printButton {
+        display: none;
+    }
+}

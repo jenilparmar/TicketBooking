@@ -1,0 +1,68 @@
+body{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(210,213,66,1) 0%, rgba(70,252,160,1) 100%);
+}
+.photo{
+    height: 39vh;
+    width: 14vw;
+    border: 2px solid black;
+    background-image: url(WhatsApp\ Image\ 2024-04-19\ at\ 20.42.41_fe7b2282.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right:10%;
+    margin-top: 2em;
+
+}
+p{
+    margin-left: 3em;
+    font-size: 1.2em;
+}
+li{
+    margin-left: 3em;
+
+}
+h2{
+    text-decoration: underline;
+    margin-left: 1em;
+}
+
+#k{
+    height: 4vh;
+    width: 2vw;
+    background-image: url(link.png);
+    background-size: contain;
+    position: absolute;
+    top: 20%;
+    right: 66%;
+    display: inline-block;
+    /* margin-top: -1.3em; */
+    background-color: transparent;
+    z-index: 20;
+}
+#h{
+    height: 4vh;
+    width: 2vw;
+    background-image: url(link.png);
+    background-size: contain;
+    position: absolute;
+    top: 30%;
+    right: 66%;
+    display: inline-block;
+    /* margin-top: -1.3em; */
+    background-color: transparent;
+    z-index: 20;
+}
+#t{
+    height: 4vh;
+    width: 2vw;
+    background-image: url(link.png);
+    background-size: contain;
+    position: absolute;
+    top: 25%;
+    right: 69%;
+    display: inline-block;
+    /* margin-top: -1.3em; */
+    background-color: transparent;
+    z-index: 20;
+}

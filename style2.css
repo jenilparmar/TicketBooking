@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+background-color: rgb(31, 27, 27);
+}
+h1{
+    margin: 1em;
+    width: 35vw;
+    border: 2px solid rgb(210, 216, 18);
+    border-radius: 20px;
+    background-color: white;
+}
+.container{
+    background-color: transparent;
+    height: 150vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.ticket{
+height: 70vh;
+width: 70vw;
+background-color: white;
+border: 2px solid rgb(210, 216, 18);
+/* background-color:    ; */
+border-radius: 20px;
+}
+.train{
+    height: 25vh;
+    width: 39vh;
+    position: relative;
+    bottom: 55%;
+    right: -36%;
+    z-index: 1;
+    opacity: 0.5;
+    background-image: url(360_F_396553788_2cr0reSShNVDmpkvjkGMknVJ9CdrCVx5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.image{
+    height: 50vh;
+    width: 22vw;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    position: relative;
+    left: -29%;
+    background-image: url(https://t3.ftcdn.net/jpg/02/82/95/54/360_F_282955458_gzLQE5mFDd5LOltN2Dix8gI51El2wpGS.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 14%;
+    border: 2px solid rgb(210, 216, 18);
+    filter: drop-shadow(0px 0px 20px rgb(210, 216, 18));
+
+}
+.information{
+    /* background-color: aquamarine; */
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    top: -50%;
+    left: 7%;
+}
+button{
+    z-index: 3;
+    position: relative;
+    top: -25%;
+}
+#form{
+    width: 75vw;
+    height: 75vh;
+    background-color: transparent;
+    position: absolute;
+    opacity: 1;
+    z-index: -1;
+    top: 18%;
+    left: 12%;
+    transition: all ease 0.8s;
+    border: 2px solid wheat;
+    border-radius: 16px;
+
+}
+h2{
+    background-color: transparent;
+    color: black;
+    background-color: wheat;
+    
+    margin-top: -0.6em;
+    border: 2px solid wheat;
+    border-radius: 16px;
+    width: 35vw;
+}
+/* #form {
+    animation: animate 1s ease forwards;
+} */
+@keyframes animate {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+@keyframes animate1 {
+    from{
+        opacity: 1;
+    }to{
+        opacity: 0;
+    }
+}
